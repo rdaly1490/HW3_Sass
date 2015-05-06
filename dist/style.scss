@@ -1,0 +1,346 @@
+
+$white: #FFFFFF;
+$navyBlue: #344051;
+$gray:#D1D3D7;
+$lightGray:#E8F0F5;
+$black:#000000;
+$lightBlue:#118BC0;
+$sans:sans-serif;
+$no: no-repeat;
+$charcoal:#C7D2D8;
+
+.lightBlue {
+	height:80px;
+	background: $lightBlue;
+	margin-bottom:0px;
+}
+
+.b1 {
+	background: $white url(pics/logo.png);
+	height:50px;
+	float:left;
+	margin:15px;
+	width:50px;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+}
+
+.b2 {
+	background: #118BC0;
+	height:50px;
+	float:left;
+	margin:25px 5px 15px 5px;
+	width:195px;
+}
+
+.b3 {
+	background: #0E71A2;
+	height:55px;
+	float:right;
+	width:110px;
+	padding-top: 25px;
+	text-align: center;
+}
+
+.logo {
+	color:$white;
+	font-weight: bold;
+	font-size: 25px;
+	vertical-align: middle;
+	font-family: $sans;
+}
+
+.logo2 {
+	color:#9BD2E7;
+	font-weight: bold;
+	font-size: 25px;
+	vertical-align: middle;;
+	margin-left: -5px;
+}
+
+
+.floatLeft {
+	opacity: 0%;
+	height:70px;
+	width:75px;
+	float:left;
+	margin:0px 20px 0px 0px;
+}
+
+.floatRight {
+	width:475px;
+	height:50px;
+	float:right;
+	margin:0px 5px 40px 0px;
+}
+
+.p1 {
+	color:$white;
+	font-size: 25px;
+	font-weight: bold;
+	margin:0px 0px 10px 10px;
+}
+
+.p2 {
+	color:#D9E1E1;
+	font-size: 25px;
+	margin:0px 0px 0px 10px;
+}
+
+.darkBlue {
+	height:1125px;
+	background: $navyBlue url(pics/crowd.jpg);
+	margin-top:0px;
+	padding-top: 150px;
+	padding-left: 75px;
+	padding-right: 75px;
+	padding-bottom: 75px;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position: 0% 30%;
+}
+
+.child {
+	height:70px;
+	width:580px;
+	margin:30px auto 30px auto;
+}
+
+.child1 {
+	height:40px;
+	width:90px;
+	margin: 30px auto 150px auto;
+}
+
+.child2 {
+	height:50px;
+	background: #1E8CBE;
+	width:450px;
+	box-shadow: 0px 0px 0px 20px rgba(0,0,0,.3);
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 90px;
+	margin-bottom: 300px;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.topText1 {
+	color: $white;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	margin:0px 0px 60px 0px;
+}
+
+.topText1-1 {
+	color: $white;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	margin:0px;
+}
+
+.topText2 {
+	color: $white;
+	font-size: 20px;
+	text-align: center;
+	margin:0px;
+}
+
+.section2 {
+	background: $lightGray;
+	height:2150px;
+	padding:50px 0px 350px 0px;
+	margin:0px;
+	text-align: center;
+	font-family: $sans;
+	font-size: 30px;
+}
+
+.gray {
+	background: $gray;
+	height:1900px;
+	margin:50px 0px 200px 0px;
+	padding:50px 20px 0px 20px;
+}
+
+.white {
+	background:$white;
+	width:750px;
+	height:250px;
+	margin:0px auto 50px auto;
+	padding-top: 20px
+}
+
+.c3 {
+	background: $white;
+	height:70px;
+	width:600px;
+	margin:0px auto 0px auto;
+}
+
+.c2 {
+	background: $white;
+	height:30px;
+	width:600px;
+	margin:0px auto 20px auto;
+}
+
+.c1 {
+	background: $charcoal;
+	height:75px;
+	width:75px;
+	margin:0px auto 20px auto;
+	border-radius: 50%; 
+}
+
+.bottomBlue {
+	height:35px;
+	width:300px;
+	background: #1E8CBE;
+	margin: 0px auto 0px auto;
+	padding: 17.5px 0px 17.5px 0px;
+}
+
+.footer {
+	height:300px;
+	background:$black;
+	padding: 60px 30px 60px 30px;
+	text-align: center;
+}
+
+.whiteBox {
+	background: url(pics/automattic.png) center;
+	background-repeat: no-repeat;
+	height:80px;
+	width:250px;
+	margin: 100px auto 0px auto
+}
+
+a {
+	color:$white;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 0px 10px 20px 10px;
+	text-decoration: none;
+	font-family: $sans;
+}
+
+.hyperlink {
+	margin-bottom: 30px;
+}
+
+.child2 {
+	a {
+		font-size: 35px;
+		font-family: $sans;
+	}
+}
+
+.test1 {
+	display:block;
+	margin:10px 0px 20px 0px;
+}
+.test3 {
+	margin: 0px 0px 20px 0px;
+}
+
+ .c2 {
+ 	p {
+	 	color:#344051;
+		font-size: 30px;
+		text-align:center;
+		font-family: Arial;
+		margin:0px 0px 0px 0px;
+ 	}	
+}
+
+.c3 {
+	p {
+		color:#4C4A49;
+		font-size: 23px;
+		text-align: center;
+		font-family: $sans;
+		margin:0px 0px 0px 0px;
+	}
+}
+
+.wordpress {
+	margin:80px 0px 0px 0px;
+	font-size: 40px;
+	color:#3A384D;
+	font-family: Arial;
+	text-align: center;
+}
+
+.bottomBlue {
+	a {
+		text-align: center;
+		color:$white;
+		font-size: 30px;
+		margin:0px;
+		font-family: Arial;
+		font-weight: normal;
+	}
+}
+
+.gray :nth-child(1) .c1 {
+	background: $charcoal url(pics/lightbulb.png) center;
+	background-repeat: $no;
+
+}
+.gray :nth-child(2) .c1{
+	background: $charcoal url(pics/cloud.png) center ;
+	background-repeat: $no;
+}
+
+.gray :nth-child(3) .c1 {
+	background: $charcoal url(pics/code.png) center;
+	background-repeat: $no;
+
+}
+.gray :nth-child(4) .c1{
+	background: $charcoal url(pics/comments.png) center ;
+	background-repeat: $no;
+}
+.gray :nth-child(5) .c1 {
+	background: $charcoal url(pics/gift.png) center;
+	background-repeat: $no;
+
+}
+.gray :nth-child(6) .c1{
+	background: $charcoal url(globe.png) center ;
+	background-repeat: $no;
+}
+
+.tablet {
+	background:url(pics/tablet.png) center;
+	background-repeat: $no;
+}
+
+.newspaper {
+	background: url(pics/newspaper.png) center;
+	background-repeat: $no;
+}
+
+.paint-brush {
+	background: url(pics/paint-brush.png) center;
+	background-repeat: $no;
+}
+
+.downArrow {
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	color:$white;
+}
+
+
+
+
+
